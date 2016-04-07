@@ -1,13 +1,68 @@
-<!doctype html>
+<!DOCTYPE html>
+<html>
 
-<html lang="en">
 <head>
-  <meta charset="utf-8">
-  <title>Music History</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Music City Artist</title>
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="main.css">
 </head>
 
 <body>
-
-
+    <div class="box" id="topNav">
+        <ul id="view">
+            <li>View Music</li>
+            <li>Add Music</li>
+            <li>Profile</li>
+        </ul>
+    </div>
+    <div class="box" id="mainContent">
+        <ul id="songs">
+            <legend>Song Name</legend>
+            <li></li>
+            <legend>Song Name</legend>
+            <li></li>
+            <legend>Song Name</legend>
+            <li></li>
+        </ul>
+    </div>
+    <div class="box" id="sidbar">
+        <form action="" method="get" accept-charset="utf-8">
+            <legend>Song Length:</legend>
+            <input type="range"></input>
+            <legend>Artist</legend>
+            <select>
+                <option value="Chris Stapleton">Chris Stapleton</option>
+                <option value="Brad Paisley">Brad Paisley</option>
+                <option value="Old Crow Medicine Show">Old Crow Medicine Show</option>
+                <option value="George Jones">George Jones</option>
+            </select>
+            <legend>Album</legend>
+            <select>
+                <option value="Chris Stapleton">Chris Stapleton</option>
+                <option value="Brad Paisley">Brad Paisley</option>
+                <option value="Old Crow Medicine Show">Old Crow Medicine Show</option>
+                <option value="George Jones">George Jones</option>
+            </select>
+            <legend>Genre</legend>
+            <form action="">
+                <input type="checkbox" name="country" value="folk">Folk
+                <br>
+                <input type="checkbox" name="country" value="country">Country
+                <br>
+                <input type="checkbox" name="country" value="blues">Blues
+                <br>
+                <input type="checkbox" name="country" value="bluegrass">Bluegrass
+                <br>
+                <input type="checkbox" name="country" value="rock">Rock
+                <br>
+                <input type="checkbox" name="country" value="jazz">Jazz
+                <br>
+              	<button type="button">Filter</button>
+            </form>
+        </form>
+    </div>
 </body>
+
 </html>
