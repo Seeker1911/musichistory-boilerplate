@@ -1,0 +1,125 @@
+/*basic styling for the site     */
+
+
+.box {
+	border: 2px solid black;
+	margin: 0 auto 10px;
+	width: 80%;
+	border-radius: 5px;
+}
+
+/*Top navigation box*/
+#topNav {
+	list-style: none;
+	text-align: left;
+	margin-top: 1em;
+	background-color: #1f3d7a;
+	color: white;
+}
+
+#topNav li {
+	list-style: none;
+	display: inline;
+	color: white;
+}
+
+#topNav li:not(:last-child):after {
+	content: " | ";
+}
+
+
+/*main content styling*/
+#mainContent {
+	background-color: #ebf0fa;
+}
+
+#songs li {
+	list-style: none;
+	display: inline;
+	/*color: white;*/
+}
+
+#songs li:not(:last-child):after {
+	content: " | ";
+}
+
+
+a {
+	padding: 5px;
+	color: white;
+}
+
+#songs li {
+	list-style: none;
+	text_align: center;
+}
+
+legend {
+	display: inline;
+/*	margin: auto;*/
+	text-align: left;
+}
+
+#songs ul {
+	padding: 0;
+	text-align: left;
+}
+
+
+/*sidebar styles*/
+#picker {
+	float: left;
+}
+
+.clear {
+	clear: left;
+}
+
+select {
+	float: left;
+}
+
+input[type="checkbox"] {
+    display:inline-block;
+    width:19px;
+    height:19px;
+}
+
+.checkboxes input{
+	display: -webkit-box;
+    clear: left;
+
+}
+
+#sideForm, #musicType{
+	padding-left: 40px;
+}
+
+#sidebar form, legend, input {
+	padding: 15px;
+	display: inline-block;
+}
+
+#picker {
+	padding: 0;
+}
+
+#sidebar {
+	background-color: #ebf0fa;
+}
+
+#firstThree {
+	float: left;
+}
+
+#secondThree {
+	float: left;
+}
+
+#filter {
+	clear: left;
+}
+
+
+
+
